@@ -1,66 +1,84 @@
-# mokjeon.github.io
-Table of Contents
-R Libraries x
-R Functions xi
-Preface xvi
-Introduction 1
-0.1 Overview and rationale for this book 1
-0.1.1 Motivation for the book 1
-0.1.2 Why R? 2
-0.1.3 Other reading for R 2
-0.2 What methods are covered in the book? 3
-0.3 Structure of the book 4
-0.4 Using R 5
-0.4.1 Entering data 6
-0.4.2 Dates 8
-0.4.3 Exporting data 10
-0.5 Further notes 11
-0.6 A brief introduction to rprogs charts and figures 11
+# Table of Contents
+* RStudio
+* BMI
+* 偏差値
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+
+
+
+* R Libraries x
+* R Functions xi
+* Preface xvi
+* Introduction 1
+## 0.1 Overview and rationale for this book 1  
+* 0.1.1 Motivation for the book 1
+* 0.1.2 Why R? 2
+* 0.1.3 Other reading for R 2
+## 0.2 What methods are covered in the book? 3
+## 0.3 Structure of the book 4
+## 0.4 Using R 5
+* 0.4.1 Entering data 6
+* 0.4.2 Dates 8
+* 0.4.3 Exporting data 10
+## 0.5 Further notes 11
+## 0.6 A brief introduction to rprogs charts and figures 11
 0.6.1 What if there is no date column? 18
-0.7 Appendix menus 20
+## 0.7 Appendix menus 20
 0.7.1 IMenu() 20
 0.7.2 CCMenu() 21
-1 Introduction to analysis of binary and proportion data 24
-1.1 Single proportion, samples and population 24
+# 1 Introduction to analysis of binary and proportion data 24
+## 1.1 Single proportion, samples and population 24
 1.1.1 Calculating the confidence interval 26
 1.1.2 Comparison with an expected rate 27
-1.2 Likelihood ratio (Bayes factor) & supported range 29
-1.3 Confidence intervals for a series of proportions 30
-1.4 Difference between two proportions 33
+## 1.2 Likelihood ratio (Bayes factor) & supported range 29
+## 1.3 Confidence intervals for a series of proportions 30
+## 1.4 Difference between two proportions 33
 1.4.1 Confidence intervals 33
 1.4.2 Hypothesis test 35
 1.4.3 The twoproportions function 37
-1.5 Introducing a Bayesian approach 39
-1.6 When the data are not just one or two independent samples 39
+## 1.5 Introducing a Bayesian approach 39
+## 1.6 When the data are not just one or two independent samples 39
 1.6.1 More than two independent proportions 40
 1.6.2 Example 1, yearly data 40
 1.6.3 Example 2, hospital data 43
 1.6.4 Prop test and small samples 47
-1.7 Summarising stratified proportion data 48
-1.8 Stratified proportion data, differences between rates 50
+## 1.7 Summarising stratified proportion data 48
+## 1.8 Stratified proportion data, differences between rates 50
 1.8.1 Yearly data 52
 1.8.2 Hospital data 54
-1.9 Mantel-Haenszel, homogeneity and trend tests 54
+## 1.9 Mantel-Haenszel, homogeneity and trend tests 54
 1.9.1 Yearly data 56
 1.9.2 Data stratified by hospital 59
-1.10 Stratified rates and overdispersion 63
-2 The analysis of aggregated binary data 67
-2.1 Risk-adjustment 68
+## 1.10 Stratified rates and overdispersion 63
+# 2 The analysis of aggregated binary data 67
+## 2.1 Risk-adjustment 68
 2.1.1 Using stratification 68
 2.1.2 Using logistic regression 70
-2.2 Discrimination and calibration 71
-2.3 Using 2005–06 data 76
+## 2.2 Discrimination and calibration 71
+## 2.3 Using 2005–06 data 76
 2.3.1 Displaying and analysing data from multiple institutions 77
 2.3.2 Tabulations 78
 2.3.3 Funnel plot and plot of multiple confidence intervals 83
-2.4 When the Es are not fixed 99
-2.5 Complex Surgical Site Infections 102
+## 2.4 When the Es are not fixed 99
+## 2.5 Complex Surgical Site Infections 102
 2.5.1 Funnel plot analysis 102
 2.5.2 Shrinkage analysis 104
-2.6 Complex SSI risk-adjustment discrimination 106
-2.7 Appendix 1 – Further tabulation methods 106
-2.8 Appendix 2 – SMR CIs and tests, further scripts. Hospital expected values from other hospitals in group 109
-3 Sequential binary data 116
+## 2.6 Complex SSI risk-adjustment discrimination 106
+## 2.7 Appendix 1 – Further tabulation methods 106
+## 2.8 Appendix 2 – SMR CIs and tests, further scripts. Hospital expected values from other hospitals in group 109
+# 3 Sequential binary data 116
 3.1 CUSUM and related charts for binary data 117
 3.2 Cumulative Observed-Expected (O-E) chart and combined CUSUM and O-E chart 120
 3.3 Cumulative funnel plot and combined CUSUM and funnel plot 120
