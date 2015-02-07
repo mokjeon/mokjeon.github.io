@@ -1,9 +1,9 @@
 # Table of Contents
 * RStudio
-* BMI
+* QI(BMI)
 * 偏差値
-* 
-* 
+* NYSOL
+* EZR
 * 
 * 
 * 
