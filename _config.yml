@@ -2,7 +2,7 @@ title: Statistical Quality Improvement with R
 description: from Hakodate, Hokkaido
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-minimal
+theme: jekyll-theme-tactile
 
 gems:
   - jekyll-mentions
